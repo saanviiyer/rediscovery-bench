@@ -1,0 +1,5 @@
+{
+  "title": "chunk() raises on negative size instead of returning empty",
+  "description": "A reproducible behaviour the held-out fix does not touch. Arguably intended behaviour rather than a defect.",
+  "target_files": ["toylib/core.py"]
+}

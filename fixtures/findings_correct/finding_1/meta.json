@@ -1,0 +1,5 @@
+{
+  "title": "chunk() drops the last element of every chunk",
+  "description": "The slice uses i + size - 1 instead of i + size, so each chunk is one element short and elements are silently lost. This contradicts the docstring's promise that every element appears in exactly one chunk.",
+  "target_files": ["toylib/core.py"]
+}

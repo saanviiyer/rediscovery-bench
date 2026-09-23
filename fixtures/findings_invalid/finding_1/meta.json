@@ -1,0 +1,5 @@
+{
+  "title": "chunk() mishandles empty input",
+  "description": "Speculative claim with no demonstrated failure -- the repro passes on the buggy code.",
+  "target_files": ["toylib/core.py"]
+}
